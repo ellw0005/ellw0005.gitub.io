@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Curtis Ellwood Assignment 3</title>
+</head>
+<body>
+	<h1>Assignment 3: Forms</h1>
+	<div>
+		<h2>Sign up for our service!</h2>
+		<form name="signup" id="1">
+			<label>
+				First Name:<br><input type="text" name="firstname" placeholder="John"><br>
+			</label>
+			<label>
+				Last Name:<br><input type="text" name="lastname" placeholder="Smith"><br>
+			</label>
+			<label>
+				Email:<br><input type="email" name="email" placeholder="youremailhere@gmail.com"><br>
+			</label>
+			<label>	
+				Password:<br><input type="password" name="password" placeholder="******"><br>
+			</label>
+			<input type="submit" name="Submit1" value="Submit1">
+			<input type="reset">
+		</form>
+	</div>
+	<div>
+		<h2> Tell us about yourself!</h2>
+		<form name="about" id="2">
+			<label>
+				Description:<br><input type="text" name="description" placeholder="I am a..."><br>
+			</label>
+			<label>
+				Date of birth:<br><input type="date" name="birthday" value="birthday"><br>
+			</label>
+			<label>
+				Your mobile phone number:<br><input type="tel" name="phone" placeholder="999-999-9999"><br>
+			</label>
+			<p>Your gender:<br>
+				<input type="radio" name="gender" value="male" checked>Male<br>
+				<input type="radio" name="gender" value="female">Female<br>
+				<input type="radio" name="gender" value="non-binary">Non-binary<br>
+			</p>
+			<p>Your hobbies/Interests:<br>
+				<input type="checkbox" name="hobbies" value="Sports">Sports<br>
+				<input type="checkbox" name="hobbies" value="Computers">Computers<br>
+				<input type="checkbox" name="hobbies" value="Camping">Camping<br>
+				<input type="checkbox" name="hobbies" value="Reading">Reading<br>
+			</p>
+			<input type="submit" name="Submit 2" value="Submit 2">
+			<input type="reset">
+		</form>
+	</div>
+	<div>
+		<h2>Where can we find you?</h2>
+		<form name="mailingaddress" id="3">
+			<p>Mailing address:<br>
+				<input type="text" name="address" placeholder="123 Fake Street"><br>
+				<input type="text" name="city" placeholder="Fictionville"><br>
+				<input type="text" name="postalcode" placeholder="A1A 1A1"><br>
+			</p>
+			<label>Province:<br>
+				<select name="Province">
+					<option value="ontario">Ontario</option>
+					<option value="quebec">Quebec</option>
+					<option value="manitoba">Manitoba</option>
+					<option value="alberta">Alberta</option>
+					<option value="saskatchewan">Saskatchewan</option>
+				</select><br>
+			</label>
+			<label>Country:<br>
+				<select name="Country">
+					<option value="Canada">Canada</option>
+					<option value="United States">United States</option>
+					<option value="Mexico">Mexico</option>
+				</select><br>
+			</label>
+			<label>Your website:<br>
+				<input type="url" name="yourwebsite" placeholder="www.placeholder.com"><br>
+			</label>
+			<input type="submit" name="Submit3" value="Submit3">
+			<input type="reset">
+		</form>
+	</div>
+</body>
+</html>
